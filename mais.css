@@ -1,0 +1,58 @@
+/* CONSTANTES */
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+/* RESET */
+*{
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+body{
+    background: var(--bg);
+}
+
+ul{
+    font-family: helvetica;
+}
+
+li{
+    list-style: circle;
+}
+
+.list{
+    list-style: square;
+}
+
+.btn{
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn{
+    position: absolute;
+    top: 27px;
+    left: 250px;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus{
+    outline-style: none;
+}
+
+/* MODOS DE TEMA */
+.light-theme{
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme{
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
