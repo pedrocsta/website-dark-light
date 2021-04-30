@@ -1,7 +1,4 @@
-# website-dark-light
-# Netflix-Clone
-
-Netflix clone feito com a intenção de aprender.
+# Website com themas
 
 Prints do layout
 
@@ -25,6 +22,3 @@ Prints do layout
 
 ![alt text](https://github.com/kaway404/Netflix-Clone/blob/master/apresentar/dashboard_wip.png?raw=true)
 
-Versão do PHP 7.X
-Escolha o tema
-Tema salvo
